@@ -1,10 +1,10 @@
 public class Tisch implements Transportierbar {
-    private int gewicht;
-    private int laenge;
-    private int breite;
-    private int hoehe;
-    private boolean zerbrechlich;
-    private boolean stapelbar;
+    private final int gewicht;
+    private final int laenge;
+    private final int breite;
+    private final int hoehe;
+    private final boolean zerbrechlich;
+    private final boolean stapelbar;
 
     public Tisch(int gewicht, int laenge, int breite, int hoehe, boolean zerbrechlich, boolean stapelbar) {
         this.gewicht = gewicht;

@@ -1,10 +1,10 @@
 public class Schaf implements Transportierbar {
-    private String name;
-    private boolean zerbrechlich;
-    private float gewicht;
-    private float laenge;
-    private float breite;
-    private float hoehe;
+    private final String name;
+    private final boolean zerbrechlich;
+    private final float gewicht;
+    private final float laenge;
+    private final float breite;
+    private final float hoehe;
 
     public Schaf(String name, boolean zerbrechlich, float gewicht, float laenge, float breite, float hoehe) {
         this.name = name;
